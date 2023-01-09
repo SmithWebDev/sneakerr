@@ -66,3 +66,5 @@ gem 'hirb', '~> 0.7.3'
 gem 'hotwire-livereload', '~> 1.2'
 
 gem 'redis', '~> 5.0'
+
+gem "clearance", "~> 2.6"
