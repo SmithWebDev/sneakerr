@@ -1,0 +1,27 @@
+<div id="<%= dom_id sneaker %>">
+  <p>
+    <strong>Name:</strong>
+    <%= sneaker.name %>
+  </p>
+
+  <p>
+    <strong>Brand:</strong>
+    <%= sneaker.brand %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= sneaker.description %>
+  </p>
+
+  <p>
+    <strong>Price:</strong>
+    <%= sneaker.price %>
+  </p>
+
+  <p>
+    <strong>Image:</strong>
+    <%= link_to sneaker.image.filename, sneaker.image if sneaker.image.attached? %>
+  </p>
+
+</div>
